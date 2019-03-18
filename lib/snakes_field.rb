@@ -1,10 +1,10 @@
-class FieldController
+class SnakesField
   def initialize(n)
     @number_of_snakes = n
     @snakes = []
     (0..n).each do |i|
       pos_y = ((i*20)+i*20)
-      s = MySquare.new(x:0,y:pos_y,size:20,color:'red', dir:'right')
+      s = SnakeSquare.new(x:0,y:pos_y,size:20,color:'red', dir:'right')
       @snakes << SnakeController.new([s])
     end
   end

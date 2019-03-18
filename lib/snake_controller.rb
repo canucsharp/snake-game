@@ -62,12 +62,12 @@ class SnakeController
     @squares.unshift(tail)
 
     case key
-      when 'right'
-        turnRight(head, tail)
-      when 'left'
-        turnLeft(head, tail)
-      else
-        moveStraight(head, tail)
+    when 'right'
+      self.class.turnRight(head, tail)
+    when 'left'
+      self.class.turnLeft(head, tail)
+    else
+      self.class.moveStraight(head, tail)
     end
   end
 

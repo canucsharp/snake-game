@@ -1,4 +1,4 @@
-class MySquare < Square
+class SnakeSquare < Square
   attr_accessor :dir
 
   def initialize(params)
