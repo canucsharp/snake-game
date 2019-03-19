@@ -2,7 +2,7 @@ How to Run the Snake Game:
 
 1- On your Terminal change directories to the Snake App using the cd command
 2- Run bundle install on you Terminal if you don't have all the necessary gems installed on your machine
-3- Use "rake snakeRun" to initialize the game
+3- Use "rake" to initialize the game
 
 
 Controls:
