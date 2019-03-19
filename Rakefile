@@ -1,9 +1,11 @@
-task default: %w[snake]
+task default: %w[snake:run]
 
-task :snakeRun do
-  ruby "snake.rb"
-end
+namespace :snake do
+  task :run do
+    ruby "snake.rb"
+  end
 
-task :snakeTest do
-      rspec "spec/snake_controllers_spec.rb"
+  task :test do
+    rspec "spec/snake_controllers_spec.rb"
+  end
 end
