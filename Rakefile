@@ -2,6 +2,7 @@ task default: %w[snake:run]
 
 namespace :snake do
 	task :run do
+		# require './snake.rb'
 		ruby "snake.rb"
 	end
 

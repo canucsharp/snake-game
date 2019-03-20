@@ -1,8 +1,8 @@
 require 'bundler/setup'
 require 'ruby2d'
-require './lib/snake_square.rb'
-require './lib/snake_controller.rb'
-require './lib/snakes_field.rb'
+require File.expand_path("./lib/snake_square.rb",__dir__)
+require File.expand_path("./lib/snake_controller.rb",__dir__)
+require File.expand_path("./lib/snakes_field.rb",__dir__)
 
 # Create a new field
 snakes_field = SnakesField.new(3)
