@@ -1,12 +1,15 @@
-# How to Run the Snake Game:
-  1. On your Terminal change directories to the Snake App using the cd command
-  2. Run bundle install on you Terminal if you don't have all the necessary gems installed on your machine
-  3. Use "rake snakeRun" to initialize the game
+# How to Run the Snake Game
+  1. Open your terminal
+  1. Clone repository
+  1. cd into snake-game directory
+  1. Run bundle install (necessary to install all the necessary gems for the game)
+  1. rake (to start the game)
 
-# Controls:
-  Left Arrow to move the snake to the left
-  Right Arrow to move the snake to the right
+# Controls
+  Left Arrow to move the snake to the left.
 
-  If you want to run some tests on the Snake Controls just run the following on your Terminal on the Snakes App directory:
+  Right Arrow to move the snake to the right.
 
-  1. rspec spec/snakeControls_spec.rb
+# Testing
+
+  If you want to run from snake-game directory with: rake snake:test
